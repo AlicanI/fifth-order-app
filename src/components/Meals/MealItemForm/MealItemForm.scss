@@ -1,0 +1,21 @@
+@import "../../../style/Variables.scss";
+
+.form {
+  text-align: right;
+  button {
+    font: inherit;
+    cursor: pointer;
+    background-color: $brown-color;
+    border: 1px solid $brown-color;
+    color: $white-color;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+
+    &:hover,
+    &:active {
+      background-color: $dark-brown-color;
+      border-color: $dark-brown-color;
+    }
+  }
+}
